@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Bootstrap Blog Template">
+  <meta name="author" content="Elena Khrustaleva">
+  
+  <title>Contact</title>
+
+  <!-- Bootstrap CSS files -->
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+  <link rel="stylesheet" type="text/css" href="blog.css">
+
+  <script src="bower_components/firebase/firebase.js"></script>
+</head>
+
+<body>
+  <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li class="active"><a href="#">Contact</a></li>
+        </ul> 
+      </nav>
+    </div>
+    
+  </header>
+
+  <div id="body" class="container">
+    <h1>Contact me</h1>
+    <div class="well">
+      <p class="lead">Do you have any question? Please use the below contact form and send a message. I'll reply you as quick as possible.</p>
+    </div>
+
+    <!--Contact form-->
+    <div class="contact-form">
+
+      <form class="form-horizontal col-md-8" role="form">
+        <div class="form-group">
+          <label for="name" class="col-md-2">Name</label>
+            <div class="col-md-10">
+              <input type="name" class="form-control" id="name" placeholder="Name">
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-md-2">Email</label>
+            <div class="col-md-10">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="subject" class="col-md-2">Subject</label>
+            <div class="col-md-10">
+              <input type="subject" class="form-control" id="subject" placeholder="Subject">
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="col-md-2">Message</label>
+          <div class="col-md-10">
+            <textarea type="subject" class="form-control" id="message" placeholder="Message"></textarea>
+          </div>  
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-primary btn-lg">Submit your message</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <hr />
+      <p class="text-center">Copyright © 2014. All rights reserved.</p>
+    </div>
+  </footer> 
+
+
+  <!-- Jquery and Bootstrap Script files -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
